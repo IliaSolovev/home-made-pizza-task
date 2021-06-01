@@ -1,11 +1,9 @@
-import React, { memo } from 'react';
-import { StyledBanner } from './banner.styles';
-import { BannerText } from './banner-text/banner-text.component';
+import React, {memo} from 'react';
+import {StyledBanner, StyledRectangle} from './banner.styles';
+import Banner from './image/BannerMain.svg'
 
-const BannerComponent = () => (
-	<StyledBanner>
-		<BannerText text="Доставим пиццу из печи за 30 минут" />
-	</StyledBanner>
-);
-
-export const Banner = memo(BannerComponent);
+export const BannerComponent = ({children}) => (<StyledBanner>
+	<StyledRectangle>
+		<span>ДОСТАВИМ ПИЦЦУ ИЗ ПЕЧИ ЗА 30 МИНУТ</span>
+	</StyledRectangle>
+</StyledBanner>);
