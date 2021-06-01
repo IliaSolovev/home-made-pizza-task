@@ -1,3 +1,3 @@
-export { Heading } from './heading/heading.component';
+export { Heading } from './header/header.component';
 export { Logo } from './logo/logo.component';
 export { SmthComponent } from './smth/smth';
