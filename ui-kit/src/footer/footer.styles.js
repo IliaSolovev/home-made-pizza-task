@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledFooter = styled.div`
-  width: 1440px;
   height: 142px;
   align-items: center;
   background-color: #505153;
@@ -14,7 +13,6 @@ export const StyledFooter = styled.div`
 export const Phones = styled.div`
   font-family: Roboto;
   font-size: 20px;
-  //font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
@@ -56,7 +54,6 @@ export const Menu = styled.div`
   color: #FFFFFF;
   display: flex;
   grid-column-gap: 30.88px;
-  //justify-content: space-between;
 `;
 
 export const Rights = styled.div`
