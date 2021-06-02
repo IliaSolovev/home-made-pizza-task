@@ -3,7 +3,7 @@ import {StyledHeading, Logo, Menu, Info, Cart, CartLogo, CartCount, Phone, WorkT
 import {logoImageUrl} from '../logo/images'
 import {logoCart} from './images'
 
-export const HeaderComponent = ({children}) => <StyledHeading>
+export const HeaderComponent = ({onModalOpen, cartCount, count}) => <StyledHeading>
 	<Logo><img src={logoImageUrl} alt="Logo"/></Logo>
 	<Menu>
 		<span>Пиццы</span>
@@ -15,10 +15,10 @@ export const HeaderComponent = ({children}) => <StyledHeading>
 		<Phone>8-800-555-35-35</Phone>
 		<WorkTime>Время Работы: <b>09-21</b></WorkTime>
 	</Info>
-	<Cart>
+	<Cart onModalOpen={onModalOpen} onClick={() => onModalOpen(true)} count={cartCount}>
 		<CartLogo><img src={logoCart} alt=""/></CartLogo>
 		<CartName>Корзина</CartName>
-		<CartCount><Count>0</Count></CartCount>
+		<CartCount><Count>{count}</Count></CartCount>
 	</Cart>
 </StyledHeading>;
 
