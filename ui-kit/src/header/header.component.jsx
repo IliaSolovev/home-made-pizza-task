@@ -9,7 +9,7 @@ const HeaderComponent = ({ menuItems, cartCount, onModalOpen, renderLinkWrapper,
 		<StyledHeaderLogo />
 		<MainMenu menu={menuItems} renderLinkWrapper={renderLinkWrapper} color={menuColor} idPrefix="header" />
 		<Phone phone="8-800-555-35-35" />
-		<CartButton count={cartCount} onModalOpen={onModalOpen} />
+		<CartButton count={cartCount} onModalOpen={onModalOpen}/>
 	</StyledHeader>
 );
 
