@@ -66,6 +66,7 @@ export const Cart = styled.div`
   border: 1px solid #9B5900;
   align-items: center;
   justify-content: space-around;
+  cursor: pointer;
 `;
 export const CartName = styled.div`
   font-family: Roboto;
