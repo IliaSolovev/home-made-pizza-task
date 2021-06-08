@@ -1,4 +1,11 @@
 export { Heading } from './heading/heading.component';
 export { Logo } from './logo/logo.component';
-export { SmthComponent } from './smth/smth';
 export { Modal } from './modal/modal.component';
+export { HeaderComponent } from './header/header.component'
+export { FooterComponent } from './footer/footer.component'
+export { Cart } from './cart/cart.component'
+export { Delivery } from './delivery/delivery.component'
+export { Catalog } from './catalog/catalog.component'
+export { AddressForm } from './address-form/address-form.component'
+export { Banner } from './banner/banner.component'
+export { AboutUs } from './about-us/about-us.component'

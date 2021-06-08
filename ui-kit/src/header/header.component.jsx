@@ -6,10 +6,10 @@ import {logoCart} from './images'
 export const HeaderComponent = ({onModalOpen, cartCount, count}) => <StyledHeading>
 	<Logo><img src={logoImageUrl} alt="Logo"/></Logo>
 	<Menu>
-		<span>Пиццы</span>
-		<span>Напитки</span>
-		<span>Доставка</span>
-		<span>О нас</span>
+		<span><a href="#pizza">Пицца</a></span>
+		<span><a href="#drinks">Напитки</a></span>
+		<span><a href="#delivery">Доставка</a></span>
+		<span><a href="#aboutUs">О нас</a></span>
 	</Menu>
 	<Info>
 		<Phone>8-800-555-35-35</Phone>

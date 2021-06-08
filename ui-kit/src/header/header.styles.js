@@ -9,6 +9,9 @@ export const StyledHeading = styled.div`
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 `;
 export const Logo = styled.div`
   height: 120px;
@@ -28,6 +31,11 @@ export const Menu = styled.div`
   display: flex;
   color: #17181A;
   justify-content: space-between;
+  a {
+    color: #17181A;
+    text-decoration: none;
+    transition: .5s linear;
+  }
 `;
 export const Info = styled.div`
   height: 36px;

@@ -54,6 +54,11 @@ export const Menu = styled.div`
   color: #FFFFFF;
   display: flex;
   grid-column-gap: 30.88px;
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .5s linear;
+  }
 `;
 
 export const Rights = styled.div`

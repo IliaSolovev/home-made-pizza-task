@@ -17,10 +17,10 @@ export const FooterComponent = ({children}) => <StyledFooter>
     </Socials>
 
     <Menu>
-        <span>Пиццы</span>
-        <span>Напитки</span>
-        <span>Доставка</span>
-        <span>О нас</span>
+        <span><a href="#pizza">Пицца</a></span>
+        <span><a href="#drinks">Напитки</a></span>
+        <span><a href="#delivery">Доставка</a></span>
+        <span><a href="#aboutUs">О нас</a></span>
     </Menu>
 
     <Rights>
